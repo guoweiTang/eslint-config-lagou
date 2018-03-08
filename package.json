@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-lagou",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoweiTang/eslint-config-lagou.git"
+  },
+  "author": "ice.tang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guoweiTang/eslint-config-lagou/issues"
+  },
+  "homepage": "https://github.com/guoweiTang/eslint-config-lagou#readme"
+}
