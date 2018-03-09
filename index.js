@@ -84,7 +84,7 @@ module.exports = {
             "inside"
         ],
         "semi": [
-            1,
+            2,
             "always"
         ],
         "guard-for-in": [
@@ -95,9 +95,6 @@ module.exports = {
             {
                 "argsIgnorePattern": "^(require)|(exports)|(module)$"
             }
-        ],
-        "no-alert": [
-            1
         ],
         "no-console": [
             0
@@ -123,7 +120,7 @@ module.exports = {
             2
         ],
         "no-param-reassign": [
-            2
+            1
         ],
         "no-magic-numbers": [
             1
@@ -134,21 +131,18 @@ module.exports = {
         "prefer-promise-reject-errors": [
             2
         ],
-        "no-undef-init": [
-            2
-        ],
         "vars-on-top": [
             1
         ],
         "no-use-before-define": [
-            2
+            1
         ],
         "eol-last": [
             2,
             "always"
         ],
         "arrow-body-style": [
-            1
+            2
         ],
         "arrow-parens": [
             1,
