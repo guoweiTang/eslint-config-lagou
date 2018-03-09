@@ -1,5 +1,5 @@
 # eslint-config-lagou
-a simple configuration based on [configuring eSlint](https://eslint.org/docs/user-guide/configuring)
+A simple configuration based on [configuring eSlint](https://eslint.org/docs/user-guide/configuring)
 
 ### Rules
 The following is introduce of [rules](https://eslint.org/docs/rules/):
