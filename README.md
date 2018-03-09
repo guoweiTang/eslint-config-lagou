@@ -40,9 +40,6 @@ The following is introduce of [rules](https://eslint.org/docs/rules/):
 * `[error: no-with] 禁止with语句`
 * `[error: no-restricted-globals] 禁止使用全局变量event、undefined`
 
-<!-- #### Debugging
-* [warn: no-alert] 禁止alert、confirm、prompt -->
-
 #### Others
 * [warn: no-extend-native] 禁止扩展原生类型
 * `[error: no-new-wrappers] 禁止基本类型用new方式声明`
