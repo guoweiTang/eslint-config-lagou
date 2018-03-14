@@ -1,6 +1,21 @@
 # eslint-config-lagou
 A simple configuration based on [configuring eSlint](https://eslint.org/docs/user-guide/configuring)
 
+
+## Default configs
+``` js
+{
+    'env': {
+        'browser': true,
+        'amd': true,
+        'es6': true,
+        'worker': true,
+        'jquery': true
+    },
+    'rules': rules
+}
+```
+
 ### Rules
 The following is introduce of [rules](https://eslint.org/docs/rules/):
 
@@ -47,7 +62,7 @@ The following is introduce of [rules](https://eslint.org/docs/rules/):
 * [warn: no-magic-numbers] 禁止使用魔术数字，即必须单独以一个变量来声明数字，不可直接用数字作运算
 * `[error: no-throw-literal] 禁止抛出非error对象`
 * `[error: prefer-promise-reject-errors] 禁止非error对象作为Promise.reject的返回值`
-* [warn: vars-on-top] var声明在作用域顶部
+<!-- * [warn: vars-on-top] var声明在作用域顶部 -->
 * [warn: no-use-before-define] 禁止变量（函数）定义之前使用它们
 * `[error: eol-last] 强制文件结尾必须有空行`
 * `[error: arrow-body-style] 当箭头函数的花括号不可省略时必须要有`

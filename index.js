@@ -4,154 +4,161 @@
  */
 'use strict';
 module.exports = {
-    "rules": {
-        "indent": [
+    'env': {
+        'browser': true,
+        'amd': true,
+        'es6': true,
+        'worker': true,
+        'jquery': true
+    },
+    'rules': {
+        'indent': [
             1,
             4
         ],
-        "semi-spacing": [
+        'semi-spacing': [
             1
         ],
-        "comma-spacing": [
+        'comma-spacing': [
             1
         ],
-        "space-before-blocks": [
+        'space-before-blocks': [
             1,
-            "always"
+            'always'
         ],
-        "space-before-function-paren": [
+        'space-before-function-paren': [
             1,
-            "never"
+            'never'
         ],
-        "space-infix-ops": [
+        'space-infix-ops': [
             1
         ],
-        "space-in-parens": [
+        'space-in-parens': [
             1
         ],
-        "no-multi-spaces": [
+        'no-multi-spaces': [
             1
         ],
-        "keyword-spacing": [
+        'keyword-spacing': [
             1
         ],
-        "key-spacing": [
+        'key-spacing': [
             1
         ],
-        "array-bracket-spacing": [
+        'array-bracket-spacing': [
             1
         ],
-        "object-curly-spacing": [
+        'object-curly-spacing': [
             1
         ],
-        "spaced-comment": [
+        'spaced-comment': [
             1,
-            "always",
+            'always',
             {
-                "exceptions": [
-                    "-",
-                    "+",
-                    "*"
+                'exceptions': [
+                    '-',
+                    '+',
+                    '*'
                 ]
             }
         ],
-        "for-direction": [
+        'for-direction': [
             2
         ],
-        "no-await-in-loop": [
+        'no-await-in-loop': [
             2
         ],
-        "no-prototype-builtins": [
+        'no-prototype-builtins': [
             2
         ],
-        "default-case": [
+        'default-case': [
             2
         ],
-        "eqeqeq": [
+        'eqeqeq': [
             2
         ],
-        "no-loop-func": [
+        'no-loop-func': [
             2
         ],
-        "no-unmodified-loop-condition": [
+        'no-unmodified-loop-condition': [
             2
         ],
-        "require-await": [
+        'require-await': [
             2
         ],
-        "wrap-iife": [
+        'wrap-iife': [
             1,
-            "inside"
+            'inside'
         ],
-        "semi": [
+        'semi': [
             2,
-            "always"
+            'always'
         ],
-        "guard-for-in": [
+        'guard-for-in': [
             2
         ],
-        "no-unused-vars": [
+        'no-unused-vars': [
             2,
             {
-                "argsIgnorePattern": "^(require)|(exports)|(module)$"
+                'argsIgnorePattern': '^(require)|(exports)|(module)$'
             }
         ],
-        "no-console": [
+        'no-console': [
             0
         ],
-        "no-caller": [
+        'no-caller': [
             2
         ],
-        "no-eval": [
+        'no-eval': [
             1
         ],
-        "no-with": [
+        'no-with': [
             2
         ],
-        "no-restricted-globals": [
+        'no-restricted-globals': [
             2,
-            "event",
-            "undefined"
+            'event',
+            'undefined'
         ],
-        "no-extend-native": [
+        'no-extend-native': [
             1
         ],
-        "no-new-wrappers": [
+        'no-new-wrappers': [
             2
         ],
-        "no-param-reassign": [
+        'no-param-reassign': [
             1
         ],
-        "no-magic-numbers": [
+        'no-magic-numbers': [
             1
         ],
-        "no-throw-literal": [
+        'no-throw-literal': [
             2
         ],
-        "prefer-promise-reject-errors": [
+        'prefer-promise-reject-errors': [
             2
         ],
-        "vars-on-top": [
+        // 'vars-on-top': [
+        //     1
+        // ],
+        'no-use-before-define': [
             1
         ],
-        "no-use-before-define": [
-            1
-        ],
-        "eol-last": [
+        'eol-last': [
             2,
-            "always"
+            'always'
         ],
-        "arrow-body-style": [
+        'arrow-body-style': [
             2
         ],
-        "arrow-parens": [
+        'arrow-parens': [
             1,
-            "as-needed"
+            'as-needed'
         ],
-        "new-cap": [
+        'new-cap': [
             2
         ],
-        "no-useless-escape": 0,
-        "no-control-regex": 0
+        'no-useless-escape': 0,
+        'no-control-regex': 0
     }
 }
