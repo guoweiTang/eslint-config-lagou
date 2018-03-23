@@ -8,6 +8,7 @@ A simple configuration based on [configuring eSlint](https://eslint.org/docs/use
     'env': {
         'browser': true,
         'amd': true,
+        'commonjs': true,
         'es6': true,
         'worker': true,
         'jquery': true

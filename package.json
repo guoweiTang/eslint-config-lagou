@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lagou",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "As mentioned above, the following is introduce of **rules**:",
   "main": "index.js",
   "scripts": {
